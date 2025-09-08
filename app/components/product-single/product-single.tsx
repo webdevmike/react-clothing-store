@@ -66,14 +66,6 @@ export default function ProductSingle({
 
   return (
     <div>
-      <Toaster
-        toastOptions={{
-          duration: 5000,
-        }}
-        containerStyle={{
-          position: "relative",
-        }}
-      />
       <div className={styles.singleProductWrapper}>
         <div className={styles.productTop}>
           <div
@@ -138,6 +130,18 @@ export default function ProductSingle({
             <button type="submit" className={styles.addToCartButton}>
               Add to Cart
             </button>
+            <Toaster
+              toastOptions={{
+                duration: 5000,
+              }}
+              containerStyle={{
+                position: "relative",
+                left: "auto",
+                right: "auto",
+                bottom: "auto",
+                top: 20,
+              }}
+            />
           </form>
         </div>
         {showDescription && (
