@@ -2,6 +2,8 @@
 
 Welcome! This app showcases React fundamentals through an e-commerce experience. The minimal design is intentional - the focus here is to demonstrate my ability to build interactive React apps with real-world functionality. This is my own implementation, not code from a tutorial.
 
+View at: https://mikebostone.com/projects/react-clothing-store/
+
 ## React Router
 
 A modern, production-ready template for building full-stack React applications using React Router.
