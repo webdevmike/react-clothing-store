@@ -40,6 +40,10 @@
 
     @include mobile-center-container;
 
+    @media screen and (max-width: 500px) {
+      height: 35rem;
+    }
+
     h2 {
       font-size: 2rem;
       font-weight: 600;
@@ -112,6 +116,10 @@
     padding: 1rem 0;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+
+    @media screen and (max-width: 500px) {
+      max-width: none;
+    }
 
     &:hover {
       background-color: darkgreen;
