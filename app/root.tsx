@@ -2,13 +2,19 @@ import {
   isRouteErrorResponse,
   Links,
   Meta,
+  Link,
   Outlet,
   Scripts,
   ScrollRestoration,
 } from "react-router";
 
 import type { Route } from "./+types/root";
-import "./app.css";
+import "./styles/app.css";
+import "./styles/root.scss";
+
+import { Shirt, Dot } from "lucide-react";
+import { githubRepoUrl } from "./constants";
+import Loader from "./components/loader";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -23,6 +29,14 @@ export const links: Route.LinksFunction = () => [
   },
 ];
 
+export function HydrateFallback() {
+  return (
+    <main>
+      <Loader />
+    </main>
+  );
+}
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -33,7 +47,38 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
+        <header>
+          <div className="container">
+            <div className="logo">
+              <Link to="/">
+                <Shirt size={28} />
+                <span>Clothing Store</span>
+              </Link>
+            </div>
+            <nav>
+              <Link to="/">Home</Link>
+              <Link to="/product/1">Awesome Shirt</Link>
+              <Link to="/product/2">Comfy Pants</Link>
+              <Link to="/product/3">Cool Shorts</Link>
+              <Link to="/product/4">Warm Jacket</Link>
+            </nav>
+          </div>
+        </header>
+        <main>{children}</main>
+        <footer>
+          <div className="container">
+            <span>
+              Built by{" "}
+              <a href="https://mikebostone.com" target="_blank">
+                Mike Bostone
+              </a>
+            </span>
+            <Dot size={28} />
+            <a href={githubRepoUrl} target="_blank">
+              View Source Code
+            </a>
+          </div>
+        </footer>
         <ScrollRestoration />
         <Scripts />
       </body>

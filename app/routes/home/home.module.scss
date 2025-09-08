@@ -1,0 +1,36 @@
+.welcomeMsg {
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.6rem;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.productsWrapper {
+  padding-top: 4rem;
+}
+
+.featuredProductWrapper {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (max-width: 1000px) {
+    align-items: stretch;
+  }
+
+  > h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+}

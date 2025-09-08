@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  --bg-section: #eef5fe;
+  --primary-dark: #094067;
+}

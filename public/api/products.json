@@ -1,0 +1,180 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Awesome Shirt",
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "Small",
+              "price": 16.99
+            },
+            {
+              "label": "Medium",
+              "price": 18.99
+            },
+            {
+              "label": "Large",
+              "price": 20.99
+            }
+          ]
+        },
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Red",
+              "hex": "#FFD3CC"
+            },
+            {
+              "label": "Blue",
+              "hex": "#D7EDFA"
+            },
+            {
+              "label": "Green",
+              "hex": "#CFF3CA"
+            },
+            {
+              "label": "Yellow",
+              "hex": "#FFF8C2"
+            }
+          ]
+        }
+      ],
+      "description": "This premium cotton shirt combines classic style with modern comfort. The Awesome Shirt transitions seamlessly from professional settings to casual weekends, with breathable fabric that maintains its shape through countless wears (and that one time you accidentally left it in the dryer too long). It's the kind of reliable piece that quietly becomes your favorite."
+    },
+    {
+      "id": 2,
+      "name": "Comfy Pants",
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "32",
+              "price": 24.99
+            },
+            {
+              "label": "34",
+              "price": 26.99
+            },
+            {
+              "label": "36",
+              "price": 28.99
+            }
+          ]
+        },
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Tan",
+              "hex": "#EAE1D8"
+            },
+            {
+              "label": "Brown",
+              "hex": "#D3CCC4"
+            },
+            {
+              "label": "Gray",
+              "hex": "#C7CACB"
+            }
+          ]
+        }
+      ],
+      "description": "Meet the pants that redefine everyday comfort. The Comfy Pants feature a smart blend of materials providing flexibility without sacrificing structure, ideal for both productive workdays and weekend adventures. With deep pockets that actually hold your phone and moisture-wicking properties for unexpected sprint-to-catch-the-train moments, these versatile pants work for everything from client meetings to weekend projects."
+    },
+    {
+      "id": 3,
+      "name": "Cool Shorts",
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "30",
+              "price": 21.99
+            },
+            {
+              "label": "32",
+              "price": 22.99
+            },
+            {
+              "label": "34",
+              "price": 24.99
+            },
+            {
+              "label": "36",
+              "price": 26.99
+            }
+          ]
+        },
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Green",
+              "hex": "#CFF3CA"
+            },
+            {
+              "label": "Red",
+              "hex": "#FFD3CC"
+            },
+            {
+              "label": "Blue",
+              "hex": "#D7EDFA"
+            },
+            {
+              "label": "Yellow",
+              "hex": "#FFF8C2"
+            }
+          ]
+        }
+      ],
+      "description": "The Cool Shorts bring together classic design and modern performance. Made from lightweight, breathable fabric with UV protection and quick-dry technology, they're perfect for any summer activity. The tailored fit offers a clean, versatile silhouette that works in multiple settings. Whether heading to a weekend conference, outdoor team building, or actually using that gym membership, these shorts have you covered."
+    },
+    {
+      "id": 4,
+      "name": "Warm Jacket",
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "Small",
+              "price": 34.99
+            },
+            {
+              "label": "Medium",
+              "price": 36.99
+            },
+            {
+              "label": "Large",
+              "price": 38.99
+            }
+          ]
+        },
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Gray",
+              "hex": "#C7CACB"
+            },
+            {
+              "label": "Brown",
+              "hex": "#D3CCC4"
+            },
+            {
+              "label": "Tan",
+              "hex": "#EAE1D8"
+            }
+          ]
+        }
+      ],
+      "description": "The Warm Jacket delivers reliable protection without unnecessary bulk. Premium insulation provides exceptional warmth while remaining lightweight – finally, a jacket that doesn't make you look like a walking sleeping bag. The water-resistant shell handles unexpected weather, while thoughtfully placed pockets fit everything from your phone to your keys and wallet, exactly where you need them."
+    }
+  ]
+}
